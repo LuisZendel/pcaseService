@@ -1,0 +1,11 @@
+POST http://localhost:3003/products HTTP/1.1
+content-type: application/json
+
+{
+ "categoria": "1",
+  "nombre": "String",
+  "descripcion": "String",
+  "costo": "Number",
+  "tipo": "String",
+  "imagen": ["String"]
+}

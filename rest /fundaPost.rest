@@ -1,0 +1,12 @@
+POST http://localhost:3003/funda
+Content-Type: application/json
+
+{
+  "categoria": "Funda",
+  "nombre": "new",
+  "descripcion": "new",
+  "costo": 180,
+  "tipo": "uso rudo",
+  "imagen": ["1.png"],
+  "modelos": ["iphe7", "8"]
+}
